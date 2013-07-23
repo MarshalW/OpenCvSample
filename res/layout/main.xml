@@ -3,13 +3,11 @@
               xmlns:opencv="http://schemas.android.com/apk/res-auto"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
-
-    <org.opencv.android.JavaCameraView
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:id="@+id/camView"
-            opencv:show_fps="true"
-            opencv:camera_id="any"
+    <ImageView
+            android:id="@+id/myImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             />
+
 </LinearLayout>
 
